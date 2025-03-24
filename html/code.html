@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Hamna!</title>
+    <style>
+        body {
+            background-color: #fce4ec;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ff4081;
+            font-family: 'Cursive', sans-serif;
+        }
+        h2 {
+            color: #ff5722;
+            font-size: 2em;
+        }
+        .heart {
+            font-size: 50px;
+            color: #e91e63;
+        }
+        .message {
+            font-size: 1.2em;
+            color: #4caf50;
+            margin-top: 20px;
+        }
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        .popup {
+            font-size: 2em;
+            font-weight: bold;
+            color: #f44336;
+            margin-top: 20px;
+            display: none;
+        }
+        .cake {
+            width: 150px;
+            margin: 20px 0;
+        }
+        .song {
+            display: none;
+        }
+        button {
+            background-color: #ff4081;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff5722;
+        }
+        .hidden {
+            display: none;
+        }
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            .message {
+                font-size: 1em;
+            }
+            button {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">💖</div>
+    <h1>HAPPY BIRTHDAY TO THE BEST SISTER IN THE WORLD "HAMNA" 🎉🎂</h1>
+
+    <!-- Pop-up message -->
+    <div class="popup">
+        🎉🎂 Happy Birthday to my best friend and amazing sister! 💖🎉
+    </div>
+
+    <!-- Birthday Image -->
+    <img src="https://your-image-link.jpg" class="responsive-img" alt="Birthday Image">
+
+    <div class="container">
+        <!-- Paragraph 1 -->
+        <p class="message">
+            Happy birthday, Hamna, my dear sis! 🎉🎂 May Allah bless you with all His blessings. May He grant you a life full of faith, keep you in His protection and safety, and fulfill all your rightful desires. 🌸✨ May He grant you the strength to achieve all the dreams you’ve seen, and may your destiny always be good. May you be granted patience and courage through every difficulty and challenge. Indeed, my Allah is most merciful. 🙏💖
+            <br><br>
+            Happy birthday, my sis! May all your dreams come true. 🌟 You are my best friend and confidante forever. I love you! 💕🎈
+        </p>
+
+        <!-- Cake Sticker -->
+        <img src="https://www.example.com/cake-sticker.png" class="cake" alt="Cake Sticker">
+
+        <!-- Birthday Song -->
+        <audio autoplay loop class="song">
+            <source src="https://www.example.com/birthday-song.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Paragraph 2 -->
+        <p class="message">
+            Hamna, you’re so much more than just my sister—you’re like a second mother to me. 💖 You’ve always been there, not only as my sibling but as my protector, my guide, and my biggest supporter. From helping me through my toughest moments to loving me unconditionally, you’ve saved me countless times when I needed it the most. You’ve shared with me your wisdom, given me the best advice, and stood by me with a heart full of love and care. Your presence is like a safety net, always there to catch me, no matter what. 🌸✨  
+            <br><br>
+            I pray that Allah continues to bless you abundantly and keeps you in His divine protection, as He has always done. May He grant you the strength to achieve every dream you hold dear, and may He fulfill your every wish in the most beautiful way possible. 🌟💫 I’m sure you’ll continue to be a light in my life, just as you’ve always been. Your unwavering support, your faith in me, and your ability to give me hope in the darkest times is something I can never thank you enough for.
+            <br><br>
+            You are truly like a box of chocolates—sweet, soft, and so comforting. 🍫 When I’m feeling low, you’re the one who lifts me up, and when I’m happy, you’re the one who celebrates with me. You’ve been my punching bag, my sounding board, and above all, my safe space. Thank you for always being there, for never judging me, and for always having my back. You’ve been my mother, my sister, and my best friend—what more could anyone ask for? 🌹
+        </p>
+
+        <!-- Birthday Message -->
+        <h2>HAPPY 21ST BIRTHDAY SIS! 🎂🎉🤗</h2>
+
+        <!-- Love You Button -->
+        <button onclick="showLoveMessage()">Love You 💖</button>
+    </div>
+
+    <script>
+        // Show Pop-up and Content
+        window.onload = function() {
+            setTimeout(function() {
+                document.querySelector('.popup').style.display = 'block';
+                setTimeout(function() {
+                    document.querySelector('.container').style.display = 'block';
+                    document.querySelector('.song').play();
+                }, 3000);
+            }, 1000);
+        };
+
+        // Love You Message
+        function showLoveMessage() {
+            alert("Love you to the moon and back! 💖🌙");
+        }
+    </script>
+</body>
+</html>
